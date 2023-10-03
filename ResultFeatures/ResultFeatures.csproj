@@ -6,4 +6,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<Authors>Zhyrgalbek Z</Authors>
+		<PackageId>ResultFeatures</PackageId>
+		<Title>ResultFeatures</Title>
+		<Description>Library for result By Zhyrgalbek Zarylbekov</Description>
+		<PackageTags>result; results; fluent; pattern, z, Zhyrgalbek, ResultFeatures</PackageTags>
+		<PackageProjectUrl>https://github.com/Zhyrgalbek1/ResultFeatures</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Zhyrgalbek1/ResultFeatures</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>../../README.md</PackageReadmeFile>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="../icon/icon.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="../README.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>
